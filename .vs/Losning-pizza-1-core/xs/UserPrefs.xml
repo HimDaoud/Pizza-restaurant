@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{2E8AC06C-8B36-446E-98B2-57C467359C62}|Losning_pizza_1_core">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Losning-pizza-1-core/wwwroot/bestilling.html">
+    <Files>
+      <File FileName="Losning-pizza-1-core/Controllers/PizzaController.cs" Line="67" Column="52" />
+      <File FileName="Losning-pizza-1-core/wwwroot/js/bestilling.js" Line="13" Column="7" />
+      <File FileName="Losning-pizza-1-core/wwwroot/bestilling.html" Line="38" Column="22" />
+      <File FileName="Losning-pizza-1-core/wwwroot/js/index.js" Line="10" Column="57" />
+      <File FileName="Losning-pizza-1-core/Models/Pizza.cs" Line="1" Column="1" />
+      <File FileName="Losning-pizza-1-core/Models/DbContext.cs" Line="22" Column="31" />
+      <File FileName="Losning-pizza-1-core/wwwroot/index.html" Line="11" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Losning-pizza-1-core" expanded="True">
+            <Node name="Losning-pizza-1-core" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Losning-pizza-1-core PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Pizza</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <script src="js/bestilling.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <table class="table">
+                <tr>
+                    <td>PizzaType</td>
+                    <td>
+                        <select id="pizzaType" class="form-control">
+                            <option value="Margarita (kr 100)">Margarita (kr 100)</option>
+                            <option value="Pizza 2">Pizza 2</option>
+                            <option value="Pizza 2">Pizza 3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>PizzaTykkelse</td>
+                    <td class="radio">
+                        <input type="radio" name="tykkelse" value="Tynn">Tynn<br>
+                        <input type="radio" name="tykkelse" value="Tykk">Tykk<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Antall</td>
+                    <td><input type="text" id="antall" /></td>
+                </tr>
+                <tr>
+                    <td>Navn</td>
+                    <td><input type="text" id="navn" /></td>
+                </tr>
+                <tr>
+                    <td>Adresse</td>
+                    <td><input type="text" id="adresse" /></td>
+                </tr>
+                <tr>
+                    <td>Telefonnr</td>
+                    <td><input type="text" id="telefonnr" /></td>
+                </tr>
+            </table>
+            <input type="button" value="Bestill" name="bestill" onclick="lagreBestilling()" class="btn btn-primary" />
+        </form>
+        </div>
+</body>
+</html>
